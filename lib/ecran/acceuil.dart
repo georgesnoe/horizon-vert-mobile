@@ -15,6 +15,97 @@ class Acceuil extends StatelessWidget {
         centerTitle: true,
         automaticallyImplyLeading: false,
       ),
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Text(
+                "Nouveautés de la semaine",
+                style: TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold),
+              ),
+              SizedBox(height: 8.0),
+              Container(
+                decoration: BoxDecoration(
+                  color: Colors.greenAccent,
+                  borderRadius: BorderRadius.circular(16.0),
+                ),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Image.asset("assets/logo-seic.png", height: 192.0),
+                    Container(
+                      height: 64.0,
+                      color: Color.fromARGB(181, 255, 255, 255),
+                      child: Padding(
+                        padding: const EdgeInsets.only(left: 8.0, right: 8.0),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              "Les fraises sont là",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 16.0,
+                              ),
+                            ),
+                            Icon(
+                              Icons.arrow_circle_right_outlined,
+                              color: Colors.green,
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              SizedBox(height: 24.0),
+              Text(
+                "Derniers conseils",
+                style: TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold),
+              ),
+              SizedBox(height: 8.0),
+              Container(
+                decoration: BoxDecoration(
+                  color: Colors.greenAccent,
+                  borderRadius: BorderRadius.circular(16.0),
+                ),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Image.asset("assets/logo-seic.png", height: 192.0),
+                    Container(
+                      height: 64.0,
+                      color: Color.fromARGB(181, 255, 255, 255),
+                      child: Padding(
+                        padding: const EdgeInsets.only(left: 8.0, right: 8.0),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              "Les fraises sont là",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 16.0,
+                              ),
+                            ),
+                            Icon(
+                              Icons.arrow_circle_right_outlined,
+                              color: Colors.green,
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
       bottomNavigationBar: NavigationBar(
         selectedIndex: 0,
         indicatorColor: Colors.greenAccent,
