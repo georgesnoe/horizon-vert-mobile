@@ -1,16 +1,8 @@
-# horizon_vert
+# Horizon Vert
 
-A new Flutter project.
+An app for LBS SEIC Project
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This project is the MVC for LBS SEIC 2025 Group 3 Project
+It will be presented on INTELO 2025 (30 - 31 May 2025)
